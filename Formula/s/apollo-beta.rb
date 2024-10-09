@@ -58,8 +58,8 @@ class ApolloBeta < Formula
 
   def install
     ENV["BRANCH"] = "master"
-    ENV["BUILD_VERSION"] = "v2024.1007.214114"
-    ENV["COMMIT"] = "dff1cd48d4f692b7033c633a694e1ea4a2293ae4"
+    ENV["BUILD_VERSION"] = Utils.git_head
+    ENV["COMMIT"] = Utils.git_head
 
     args = %W[
       -DBUILD_WERROR=ON
@@ -69,7 +69,7 @@ class ApolloBeta < Formula
       -DSUNSHINE_ASSETS_DIR=sunshine/assets
       -DSUNSHINE_BUILD_HOMEBREW=ON
       -DSUNSHINE_ENABLE_TRAY=OFF
-      -DSUNSHINE_PUBLISHER_NAME='LizardByte'
+      -DSUNSHINE_PUBLISHER_NAME='ClassicOldSong'
       -DSUNSHINE_PUBLISHER_WEBSITE='https://app.lizardbyte.dev'
       -DSUNSHINE_PUBLISHER_ISSUE_URL='https://app.lizardbyte.dev/support'
     ]
