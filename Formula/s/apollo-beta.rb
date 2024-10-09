@@ -4,6 +4,7 @@ class ApolloBeta < Formula
   desc "Self-hosted game stream host for Moonlight"
   homepage "https://app.lizardbyte.dev/Sunshine"
   url "https://github.com/ClassicOldSong/Apollo.git", branch: "master"
+  version Utils.git_head
   license all_of: ["GPL-3.0-only"]
   head "https://github.com/ClassicOldSong/Apollo.git", branch: "master"
 
