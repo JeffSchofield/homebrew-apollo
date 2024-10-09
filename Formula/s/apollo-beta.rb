@@ -1,14 +1,13 @@
 require "language/node"
 
-class SunshineBeta < Formula
-  conflicts_with "sunshine", because: "sunshine and sunshine-beta cannot be installed at the same time"
+class ApolloBeta < Formula
   desc "Self-hosted game stream host for Moonlight"
   homepage "https://app.lizardbyte.dev/Sunshine"
-  url "https://github.com/LizardByte/Sunshine.git",
+  url "https://github.com/ClassicOldSong/Apollo.git",
     tag: "v2024.1007.214114"
   version "2024.1007.214114"
   license all_of: ["GPL-3.0-only"]
-  head "https://github.com/LizardByte/Sunshine.git", branch: "master"
+  head "https://github.com/ClassicOldSong/Apollo.git", branch: "master"
 
   # https://docs.brew.sh/Brew-Livecheck#githublatest-strategy-block
   livecheck do
