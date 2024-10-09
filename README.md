@@ -7,15 +7,16 @@ This is an unofficial homebrew tap for the low-latency desktop and game streamin
 brew tap JeffSchofield/apollo
 ```
 
-### Install the latest beta version
+### Install the latest beta version of Apollo
 
 ```bash
 brew install apollo-beta --with-docs-off
 ```
 **Note:** The `--with-docs-off` flag is required to avoid a build error. This is because there is currently an issue with the way the documentation is generated.
 
-### Test
+### Install the latest beta version of my experimental Apollo fork
+This is for my own fork of Apollo for experimenting with new features, fixes, and changes. It is not intended for general use.
 
 ```bash
-brew test apollo-beta
+brew install jsapollo-beta --with-docs-off
 ```
