@@ -3,9 +3,7 @@ require "language/node"
 class ApolloBeta < Formula
   desc "Self-hosted game stream host for Moonlight"
   homepage "https://app.lizardbyte.dev/Sunshine"
-  url "https://github.com/ClassicOldSong/Apollo.git",
-    tag: "v2024.1007.214114"
-  version "2024.1007.214114"
+  url "https://github.com/ClassicOldSong/Apollo.git", branch: "master"
   license all_of: ["GPL-3.0-only"]
   head "https://github.com/ClassicOldSong/Apollo.git", branch: "master"
 
