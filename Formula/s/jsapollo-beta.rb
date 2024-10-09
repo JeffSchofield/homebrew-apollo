@@ -1,6 +1,6 @@
 require "language/node"
 
-class JSApolloBeta < Formula
+class JsapolloBeta < Formula
   desc "Self-hosted game stream host for Moonlight"
   homepage "https://app.lizardbyte.dev/Sunshine"
   url "https://github.com/JeffSchofield/Apollo.git", branch: "master"
